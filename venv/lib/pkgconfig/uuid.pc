@@ -1,0 +1,11 @@
+prefix=/home/vdvinayak/ml_projects/venv
+exec_prefix=/home/vdvinayak/ml_projects/venv
+libdir=/home/vdvinayak/ml_projects/venv/lib
+includedir=/home/vdvinayak/ml_projects/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
